@@ -1,0 +1,19 @@
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: none; /* Remove track background */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #d9e1e1; /* Thumb color */
+    border-radius: 4px; /* Rounded corners */
+    border: none; /* Remove border */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #afb5b4; /* Thumb color on hover */
+  }
+  
